@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>
+            Welcome to the Best Book Review Website on the Internet
+        </h1>
+        <h3>Login</h3>
+        <form method = "POST" action = "{{url_for('login')}}">
+            <h4>
+                Username
+            </h4>
+            <input
+                type = "text"
+                class = "form-control"
+                placeholder="Please Enter Your Username"
+                name = "username"
+                required
+            />
+            <h4>
+                Password
+            </h4>
+            <input
+                type = "password"
+                class = "form-control"
+                placeholder = "Please Enter Your Password"
+                name = "password"
+                required
+            />
+
+            <button type = "submit">Login</button>
+        </form>
+        {%if session['logged in']%}
+        <p>Welcome, {{session['username']}}</p>
+        <ul>
+            <li>
+                <a href = "{{url_for('Search')}}">Search</a>
+            </li>
+            <li>
+                <a href = "{{url_for('books')}}">Books</a>
+            </li>
+        </ul>
+        {% endif%}
+        {%if not session ['logged_in']%}
+        <ul>
+            <li>
+                <a href = "{{url_for('login')}}">Login</a>
+            </li>
+            <li>
+                <a href = "{{url_for('signup')}}">Sign Up</a>
+            </li>
+        </ul>
+        {%endif%}
+        <a href = "{{url_for('search')}}">Return to the welcome page</a>
+    </body>
+    
+</html>
