@@ -10,7 +10,7 @@
             Welcome to the Best Book Review Website on the Internet
         </h1>
         {% if message %}
-        <div class="error">{{message}}</div>
+        <h1>{{message}}</h1>
         {%endif%}
         <form method="POST" action="{{url_for('signup')}}">
         

@@ -10,6 +10,22 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 engine =create_engine(os.getenv("DATABASE_URL"))
 db = scoped_session(sessionmaker(bind=engine))
 
+
+def create_user_table():
+    """This function creates the user table. I call it below but have it commented out because I don't need to recreate it over and over"""
+    
+    create_user_table = text("""
+    CREATE TABLE users (
+          id SERIAL PRIMARY KEY,
+          username VARCHAR NOT NULL unique,
+          password VARCHAR NOT NULL
+      );
+    """)
+    global db
+    db.execute(create_user_table)
+    db.commit()
+    print("User Table Created")
+
 def add_books():
     """Add Books to database"""
     global db
@@ -23,24 +39,11 @@ def add_books():
         db.commit()
         file.close()
         print("Uploading Finished")
-def create_user_table():
-    """This function creates the user table. I call it below but have it commented out because I don't need to recreate it over and over"""
-    global db
-    create_user_table = text("""
-    CREATE TABLE users (
-          id SERIAL PRIMARY KEY,
-          username VARCHAR NOT NULL unique,
-          password VARCHAR NOT NULL
-      );
-    """)
-    db.execute(create_user_table)
-    db.commit()
-    print("User Table Created")
 
 
 def create_book_table():
     """This function creates the book table but it is also commented out."""
-    global db
+    
     create_book_table = text("""
     CREATE TABLE books (
           id SERIAL PRIMARY KEY,
@@ -50,13 +53,14 @@ def create_book_table():
           year INTEGER NOT NULL
       );
     """)
+    global db
     db.execute(create_book_table)
     db.commit()
     print("Book Table Created")
 
 def create_review_table():
     """This function creates the review table but it is also commented out."""
-    global db
+    
     create_book_table = text("""
     CREATE TABLE review (
           id SERIAL PRIMARY KEY,
@@ -66,13 +70,14 @@ def create_review_table():
           book_id INT NOT NULL
       );
     """)
+    global db
     db.execute(create_book_table)
     db.commit()
     print("Review Table Created")
 
 
 if __name__ == '__main__':
-    create_user_table()
-    create_book_table()
-    create_review_table()
-    add_books()
+    #create_user_table()
+    #create_book_table()
+    #create_review_table()
+    #add_books()
