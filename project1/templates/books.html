@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <link rel = "stylesheet" href = "style.css">
 
         <h1>
             Welcome to the Best Book Review Website on the Internet
         </h1>
+        <p>
+            Please search for the book that you would like here.
+        </p>
+        <form action = "/books">
+            <input
+            type = "text"
+            class="form-control"
+            name="search"
+            placeholder = "please enter a name, author or ISBN number"
+            required
+        />
+        <button>Search</button>
+        </form>
+
+        <p>{{count}} results found for {{info}}</p>
+        {%if message%}
+        <h4>{{message}}</h4>
+        {%endif%}
+
+        {%if obj_book%} {% for book in obj_book%}
+            <a href = "{{url_for('book', isbn = book.isbn)}}">
+                <p>
+                    {{book.title}} | {{book.author}}
+                </p>
+                <p>
+                    published in {{book.year}}, with an ISBN of {{book.isbn}}
+                </p>
+            </a>
+        {%endfor%}{%endif%}
+
+
         {%if session['logged in']%}
         <p>Welcome, {{session['username']}}</p>
         <ul>
@@ -28,5 +60,6 @@
         {%endif%}
         <a href = "{{url_for('search')}}">Return to the welcome page</a>
     </body>
+    <a href="{{url_for('logout')}}">Logout</a>
     
 </html>

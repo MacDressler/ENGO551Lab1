@@ -5,7 +5,12 @@
         <h1 style = "color:red">
             WRONG USERNAME OR PASSWORD
         </h1>
-        <a href = "{{url_for('login')}}">Please click here if you would like another try</a>       
+        <h2>
+            Do you really deserve another chance?
+        </h2>
+        <a href = "{{url_for('login')}}">Please click here if you would like another try</a>
+        
     </body>
     <a href="{{url_for('logout')}}">Logout</a>
+    
 </html>
