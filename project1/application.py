@@ -118,7 +118,7 @@ def books():
     info = request.args.get('search') # I need the search result
     if info!= None:
         info = info.strip().replace("'", "") # Ijust need to make sure that the search doesn't include quotation marks
-        obj_book = db.execute(text("SELECT * from books where isbn LIKE ('%"+info+"%') or lower (title) LIKE lower ('%" + info + "%') or lower(author) LIKE lower('%" + info + "%') order by year desc;")).fetchall()
+        obj_book = db.execute(text("SELECT * from books where isbn LIKE ('%"+info+"%') or lower(author) LIKE lower('%" + info + "%') or lower (title) LIKE lower ('%" + info + "%') order by year desc;")).fetchall()
         count = len(obj_book) # obj_book is the dictionary for the books that somewhat match the search results
         if count == 0:
             return render_template('books.html', info = info, count = count, message = "Book Not Found") # I need this if the search doesn't yield results
@@ -137,4 +137,6 @@ def logout():
     return redirect(url_for("login")) # I need logout functionality so that the user can end the session.
 
     #In order to run the code type python -m flask run in the command line
+    # run this first at the beginning of the session  $env:FLASK_APP = "application.py"
+
 
