@@ -26,14 +26,17 @@ def reviews(book_id): # I need this function in order to get the stats from my r
     return [review.count, float(str(review.round))]
 
 def google_books(book_id):
-    res = requests.get("https://www.googleapis.com/books/v1/volumes", params={'key': api_key, 'q': f'isbn:{book_id}'})
+    res = requests.get('https://www.googleapis.com/books/v1/volumes', params = {'q': book_id}) #'https://www.googleapis.com/books/v1/volumes?q={"isbn":"0812995341"}', 'key': api_key, 
     info = res.json()
     if 'items' in info and info['items']:
-        data = info['items'][0]['volumeInfo']
-        count = data.get('ratingsCount', 'N/A')
-        rating = data.get('averageRating', 'N/A')
-    
-    print([count, rating])
+        for item in info['items']:
+            data = item['volumeInfo']
+            count = data.get('ratingsCount')
+            rating = data.get('averageRating')
+            if count and rating:
+                return count, rating
+            
+
     return count, rating
 
 

@@ -1,0 +1,426 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 556,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "WEBtswEACAAJ",
+            "etag": "U4YUbjqkPoo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/WEBtswEACAAJ",
+            "volumeInfo": {
+                "title": "The Pen, the Palm, and the Pulpit",
+                "authors": [
+                    "John Stoughton"
+                ],
+                "publishedDate": "2017-09-05",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0649669118"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780649669110"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 128,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=WEBtswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=WEBtswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.ca/books?id=WEBtswEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=WEBtswEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Pen_the_Palm_and_the_Pulpit.html?hl=&id=WEBtswEACAAJ"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "CA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=WEBtswEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Our readers see the books the same way that their first readers did decades or a hundred or more years ago. Books from that period are often spoiled by imperfections that did not exist in the original."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Mu1UtAEACAAJ",
+            "etag": "OB7xY1yBSo0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Mu1UtAEACAAJ",
+            "volumeInfo": {
+                "title": "The Last Days of Boosy, the Bearer of Little Henry",
+                "authors": [
+                    "Theophilus Smith"
+                ],
+                "publisher": "Trieste Publishing",
+                "publishedDate": "2017-09-13",
+                "description": "Trieste Publishing has a massive catalogue of classic book titles. Our aim is to provide readers with the highest quality reproductions of fiction and non-fiction literature that has stood the test of time. The many thousands of books in our collection have been sourced from libraries and private collections around the world.The titles that Trieste Publishing has chosen to be part of the collection have been scanned to simulate the original. Our readers see the books the same way that their first readers did decades or a hundred or more years ago. Books from that period are often spoiled by imperfections that did not exist in the original. Imperfections could be in the form of blurred text, photographs, or missing pages. It is highly unlikely that this would occur with one of our books. Our extensive quality control ensures that the readers of Trieste Publishing"s books will be delighted with their purchase. Our staff has thoroughly reviewed every page of all the books in the collection, repairing, or if necessary, rejecting titles that are not of the highest quality. This process ensures that the reader of one of Trieste Publishing"s titles receives a volume that faithfully reproduces the original, and to the maximum degree possible, gives them the experience of owning the original work.We pride ourselves on not only creating a pathway to an extensive reservoir of books of the finest quality, but also providing value to every one of our readers. Generally, Trieste books are purchased singly - on demand, however they may also be purchased in bulk. Readers interested in bulk purchases are invited to contact us directly to enquire about our tailored bulk rates.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0649625285"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780649625284"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 212,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Mu1UtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Mu1UtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.ca/books?id=Mu1UtAEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=Mu1UtAEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Last_Days_of_Boosy_the_Bearer_of_Lit.html?hl=&id=Mu1UtAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "CA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Mu1UtAEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Our readers see the books the same way that their first readers did decades or a hundred or more years ago. Books from that period are often spoiled by imperfections that did not exist in the original."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ofQqDAAAQBAJ",
+            "etag": "9bR7AuuWPKU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ofQqDAAAQBAJ",
+            "volumeInfo": {
+                "title": "Lincoln in the Bardo",
+                "subtitle": "A Novel",
+                "authors": [
+                    "George Saunders"
+                ],
+                "publisher": "Random House",
+                "publishedDate": "2017-02-14",
+                "description": "#1 NEW YORK TIMES BESTSELLER • WINNER OF THE MAN BOOKER PRIZE The “devastatingly moving” (People) first novel from the author of Tenth of December: a moving and original father-son story featuring none other than Abraham Lincoln, as well as an unforgettable cast of supporting characters, living and dead, historical and invented Named One of Paste’s Best Novels of the Decade • Named One of the Ten Best Books of the Year by The Washington Post, USA Today, and Maureen Corrigan, NPR • One of Time’s Ten Best Novels of the Year • A New York Times Notable Book • One of O: The Oprah Magazine’s Best Books of the Year February 1862. The Civil War is less than one year old. The fighting has begun in earnest, and the nation has begun to realize it is in for a long, bloody struggle. Meanwhile, President Lincoln’s beloved eleven-year-old son, Willie, lies upstairs in the White House, gravely ill. In a matter of days, despite predictions of a recovery, Willie dies and is laid to rest in a Georgetown cemetery. “My poor boy, he was too good for this earth,” the president says at the time. “God has called him home.” Newspapers report that a grief-stricken Lincoln returns, alone, to the crypt several times to hold his boy’s body. From that seed of historical truth, George Saunders spins an unforgettable story of familial love and loss that breaks free of its realistic, historical framework into a supernatural realm both hilarious and terrifying. Willie Lincoln finds himself in a strange purgatory where ghosts mingle, gripe, commiserate, quarrel, and enact bizarre acts of penance. Within this transitional state—called, in the Tibetan tradition, the bardo—a monumental struggle erupts over young Willie’s soul. Lincoln in the Bardo is an astonishing feat of imagination and a bold step forward from one of the most important and influential writers of his generation. Formally daring, generous in spirit, deeply concerned with matters of the heart, it is a testament to fiction’s ability to speak honestly and powerfully to the things that really matter to us. Saunders has invented a thrilling new form that deploys a kaleidoscopic, theatrical panorama of voices to ask a timeless, profound question: How do we live and love when we know that everything we love must end? “A luminous feat of generosity and humanism.”—Colson Whitehead, The New York Times Book Review “A masterpiece.”—Zadie Smith",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780812995350"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "081299535X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 369,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "3.14.9.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ofQqDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ofQqDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.ca/books?id=ofQqDAAAQBAJ&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=3&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ofQqDAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ofQqDAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 13.99,
+                    "currencyCode": "CAD"
+                },
+                "retailPrice": {
+                    "amount": 13.99,
+                    "currencyCode": "CAD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ofQqDAAAQBAJ&rdid=book-ofQqDAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 13990000,
+                            "currencyCode": "CAD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 13990000,
+                            "currencyCode": "CAD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "CA",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Lincoln_in_the_Bardo-sample-epub.acsm?id=ofQqDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ofQqDAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "#1 NEW YORK TIMES BESTSELLER • WINNER OF THE MAN BOOKER PRIZE The “devastatingly moving” (People) first novel from the author of Tenth of December: a moving and original father-son story featuring none other than Abraham Lincoln, as ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "b43mDQAAQBAJ",
+            "etag": "b12xkADxVQE",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/b43mDQAAQBAJ",
+            "volumeInfo": {
+                "title": "Lincoln in the Bardo",
+                "subtitle": "A Novel",
+                "authors": [
+                    "George Saunders"
+                ],
+                "publisher": "Random House",
+                "publishedDate": "2017-02-14",
+                "description": "#1 NEW YORK TIMES BESTSELLER • WINNER OF THE MAN BOOKER PRIZE The “devastatingly moving” (People) first novel from the author of Tenth of December: a moving and original father-son story featuring none other than Abraham Lincoln, as well as an unforgettable cast of supporting characters, living and dead, historical and invented Named One of Paste’s Best Novels of the Decade • Named One of the Ten Best Books of the Year by The Washington Post, USA Today, and Maureen Corrigan, NPR • One of Time’s Ten Best Novels of the Year • A New York Times Notable Book • One of O: The Oprah Magazine’s Best Books of the Year February 1862. The Civil War is less than one year old. The fighting has begun in earnest, and the nation has begun to realize it is in for a long, bloody struggle. Meanwhile, President Lincoln’s beloved eleven-year-old son, Willie, lies upstairs in the White House, gravely ill. In a matter of days, despite predictions of a recovery, Willie dies and is laid to rest in a Georgetown cemetery. “My poor boy, he was too good for this earth,” the president says at the time. “God has called him home.” Newspapers report that a grief-stricken Lincoln returns, alone, to the crypt several times to hold his boy’s body. From that seed of historical truth, George Saunders spins an unforgettable story of familial love and loss that breaks free of its realistic, historical framework into a supernatural realm both hilarious and terrifying. Willie Lincoln finds himself in a strange purgatory where ghosts mingle, gripe, commiserate, quarrel, and enact bizarre acts of penance. Within this transitional state—called, in the Tibetan tradition, the bardo—a monumental struggle erupts over young Willie’s soul. Lincoln in the Bardo is an astonishing feat of imagination and a bold step forward from one of the most important and influential writers of his generation. Formally daring, generous in spirit, deeply concerned with matters of the heart, it is a testament to fiction’s ability to speak honestly and powerfully to the things that really matter to us. Saunders has invented a thrilling new form that deploys a kaleidoscopic, theatrical panorama of voices to ask a timeless, profound question: How do we live and love when we know that everything we love must end? “A luminous feat of generosity and humanism.”—Colson Whitehead, The New York Times Book Review “A masterpiece.”—Zadie Smith",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780812995343"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0812995341"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 367,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.0.0.preview.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=b43mDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=b43mDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.ca/books?id=b43mDQAAQBAJ&pg=PP7&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.ca/books?id=b43mDQAAQBAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Lincoln_in_the_Bardo.html?hl=&id=b43mDQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "CA",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=b43mDQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>ISBN</b> 9780812995343 | <b>ISBN</b> 9780812995350 ( ebook ) SUBJECTS : LCSH : Lincoln , Abraham , 1809-1865 - Fiction . Presidents United States - Fiction . | Grief - Fiction . | GSAFD : Biographical fiction . | Historical fiction&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "b36OZcfMqJMC",
+            "etag": "Od3sepnwVYo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/b36OZcfMqJMC",
+            "volumeInfo": {
+                "title": "Fox 8",
+                "subtitle": "A Story",
+                "authors": [
+                    "George Saunders"
+                ],
+                "publisher": "Random House",
+                "publishedDate": "2013-04-09",
+                "description": "From the #1 New York Times bestselling author of Lincoln in the Bardo, a darkly comic short story about the unintended consequences unleashed by our quest to tame the natural world—featuring gorgeous black-and-white illustrations by Chelsea Cardinal. Fox 8 has always been known as the daydreamer in his pack, the one his fellow foxes regard with a knowing snort and a roll of the eyes. That is, until he develops a unique skill: He teaches himself to speak “Yuman” by hiding in the bushes outside a house and listening to children’s bedtime stories. The power of language fuels his abundant curiosity about people—even after “danjer” arrives in the form of a new shopping mall that cuts off his food supply, sending Fox 8 on a harrowing quest to help save his pack. Told with his distinctive blend of humor and pathos, Fox 8 showcases the extraordinary imaginative talents of George Saunders, whom The New York Times called “the writer for our time.”",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780812995329"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0812995325"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 65,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.10.10.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=b36OZcfMqJMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=b36OZcfMqJMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.ca/books?id=b36OZcfMqJMC&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=b36OZcfMqJMC&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=b36OZcfMqJMC"
+            },
+            "saleInfo": {
+                "country": "CA",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 5.99,
+                    "currencyCode": "CAD"
+                },
+                "retailPrice": {
+                    "amount": 5.99,
+                    "currencyCode": "CAD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=b36OZcfMqJMC&rdid=book-b36OZcfMqJMC&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 5990000,
+                            "currencyCode": "CAD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 5990000,
+                            "currencyCode": "CAD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "CA",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.ca/books/download/Fox_8-sample-epub.acsm?id=b36OZcfMqJMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=b36OZcfMqJMC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Told with his distinctive blend of humor and pathos, Fox 8 showcases the extraordinary imaginative talents of George Saunders, whom The New York Times called “the writer for our time.”"
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "CXJPAwAAQBAJ",
+            "etag": "pJ5wYd7kwT0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/CXJPAwAAQBAJ",
+            "volumeInfo": {
+                "title": "Congratulations, by the Way",
+                "subtitle": "Some Thoughts on Kindness",
+                "authors": [
+                    "George Saunders"
+                ],
+                "publisher": "A&C Black",
+                "publishedDate": "2014-01-01",
+                "description": "An inspiring message from the inaugural Folio Prize winner, George Saunders, one of today"s most influential and original writers", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9781408859346"}, {"type": "ISBN_10", "identifier": "1408859343"}], "readingModes": {"text": false, "image": true}, "pageCount": 64, "printType": "BOOK", "categories": ["Conduct of life"], "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "preview-1.0.0", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http: //books.google.com/books/content?id=CXJPAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=CXJPAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.ca/books?id=CXJPAwAAQBAJ&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=6&source=gbs_api", "infoLink": "http://books.google.ca/books?id=CXJPAwAAQBAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api", "canonicalVolumeLink": "https://books.google.com/books/about/Congratulations_by_the_Way.html?hl=&id=CXJPAwAAQBAJ"}, "saleInfo": {"country": "CA", "saleability": "NOT_FOR_SALE", "isEbook": false}, "accessInfo": {"country": "CA", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": false}, "pdf": {"isAvailable": true, "acsTokenLink": "http://books.google.ca/books/download/Congratulations_by_the_Way-sample-pdf.acsm?id=CXJPAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "webReaderLink": "http://play.google.com/books/reader?id=CXJPAwAAQBAJ&hl=&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "An inspiring message from the inaugural Folio Prize winner, George Saunders, one of today&#39;s most influential and original writers"}}, {"kind": "books#volume", "id": "Gxq72yz1z6EC", "etag": "emGoPDE4U+U", "selfLink": "https://www.googleapis.com/books/v1/volumes/Gxq72yz1z6EC", "volumeInfo": {"title": "A Sand County Almanac", "subtitle": "With Essays on Conservation from Round River", "authors": ["Aldo Leopold"], "publisher": "Ballantine Books", "publishedDate": "1986-12-12", "description": "The environmental classic that redefined the way we think about the natural world—an urgent call for preservation that’s more timely than ever. “We can place this book on the shelf that holds the writings of Thoreau and John Muir.”—San Francisco Chronicle These astonishing portraits of the natural world explore the breathtaking diversity of the unspoiled American landscape—the mountains and the prairies, the deserts and the coastlines. Conjuring up one extraordinary vision after another, Aldo Leopold takes readers with him on the road and through the seasons on a fantastic tour of our priceless natural resources, explaining the destructive effects humankind has had on the land and issuing a bold challenge to protect the world we love.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780345345059"}, {"type": "ISBN_10", "identifier": "0345345053"}], "readingModes": {"text": false, "image": false}, "pageCount": 318, "printType": "BOOK", "categories": ["Nature"], "averageRating": 3, "ratingsCount": 6, "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "2.2.4.0.preview.0", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=Gxq72yz1z6EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=Gxq72yz1z6EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.ca/books?id=Gxq72yz1z6EC&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=7&source=gbs_api", "infoLink": "http://books.google.ca/books?id=Gxq72yz1z6EC&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api", "canonicalVolumeLink": "https://books.google.com/books/about/A_Sand_County_Almanac.html?hl=&id=Gxq72yz1z6EC"}, "saleInfo": {"country": "CA", "saleability": "NOT_FOR_SALE", "isEbook": false}, "accessInfo": {"country": "CA", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": false}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=Gxq72yz1z6EC&hl=&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "The environmental classic that redefined the way we think about the natural world—an urgent call for preservation that’s more timely than ever. “We can place this book on the shelf that holds the writings of Thoreau and John Muir ..."}}, {"kind": "books#volume", "id": "12s6DgAAQBAJ", "etag": "/ixfZXP2uCk", "selfLink": "https://www.googleapis.com/books/v1/volumes/12s6DgAAQBAJ", "volumeInfo": {"title": "Sourdough", "subtitle": "A Novel", "authors": ["Robin Sloan"], "publisher": "MCD", "publishedDate": "2017-09-05", "description": "From Robin Sloan, the New York Times bestselling author of Mr. Penumbra’s 24-Hour Bookstore, comes Sourdough, "a perfect parable for our times" (San Francisco Magazine): a delicious and funny novel about an overworked and under-socialized software engineer discovering a calling and a community as a baker. Named One of the Best Books of the Year by NPR, the San Francisco Chronicle, and Southern Living Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions. She codes all day and collapses at night, her human contact limited to the two brothers who run the neighborhood hole-in-the-wall from which she orders dinner every evening. Then, disaster! Visa issues. The brothers quickly close up shop. But they have one last delivery for Lois: their culture, the sourdough starter used to bake their bread. She must keep it alive, they tell her—feed it daily, play it music, and learn to bake with it. Lois is no baker, but she could use a roommate, even if it is a needy colony of microorganisms. Soon, not only is she eating her own homemade bread, she’s providing loaves to the General Dexterity cafeteria every day. Then the company chef urges her to take her product to the farmer’s market—and a whole new world opens up.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9780374716431"}, {"type": "ISBN_10", "identifier": "0374716439"}], "readingModes": {"text": true, "image": false}, "pageCount": 273, "printType": "BOOK", "categories": ["Fiction"], "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "1.7.5.0.preview.2", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=12s6DgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=12s6DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.ca/books?id=12s6DgAAQBAJ&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=8&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ"}, "saleInfo": {"country": "CA", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 12.99, "currencyCode": "CAD"}, "retailPrice": {"amount": 12.99, "currencyCode": "CAD"}, "buyLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ&rdid=book-12s6DgAAQBAJ&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 12990000, "currencyCode": "CAD"}, "retailPrice": {"amountInMicros": 12990000, "currencyCode": "CAD"}, "giftable": true}]}, "accessInfo": {"country": "CA", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.ca/books/download/Sourdough-sample-epub.acsm?id=12s6DgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=12s6DgAAQBAJ&hl=&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Named One of the Best Books of the Year by NPR, the San Francisco Chronicle, and Southern Living Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions."}}, {"kind": "books#volume", "id": "nbRVCgAAQBAJ", "etag": "eX5ndcYfdhA", "selfLink": "https://www.googleapis.com/books/v1/volumes/nbRVCgAAQBAJ", "volumeInfo": {"title": "The Nest", "subtitle": "A Novel", "authors": ["Cynthia D"Aprix Sweeney"], "publisher": "HarperCollins", "publishedDate": "2016-03-22", "description": "A wickedly smart, funny and deeply felt debut novel about four adult siblings and the fate of their long depended-upon family inheritance On a wintry afternoon in New York City, Melody, Beatrice and Jack Plumb gather to confront their charismatic and reckless older brother, Leo, who has just been released from rehab. Leo’s bad behavior before entering rehab, culminating in a car crash while under the influence—a nineteen-year-old waitress beside him—has left the Plumbs’ joint trust fund—“The Nest,” as they’ve taken to calling it—endangered. All four siblings, at very different places in their lives, believe that this money will solve a host of self-inflicted problems and their consequences. And until Leo’s accident, they’d been mere months away from receiving it. Can Leo get the Plumbs out of this mess, as he’s always been able to do for himself before? Or will the Plumb siblings have to do without the money and the future lives they’ve envisioned? As the siblings grapple with family tensions, old histories, and the significant emotional and financial cost of the accident, Sweeney introduces an unforgettable cast of supporting characters: Leo’s stalwart ex-girlfriend who now thinks that maybe, just maybe, he is capable of change; the waitress whose life was shattered in the accident; the Iraqi war veteran who falls in love with her; and a retired, grieving firefighter with a very big secret. Tender, funny and deftly written, The Nest explores what money does to relationships, what happens to our ambitions over the course of our lives, and the fraught but unbreakable ties we have with our families.", "industryIdentifiers": [{"type": "ISBN_13", "identifier": "9781443445252"}, {"type": "ISBN_10", "identifier": "1443445258"}], "readingModes": {"text": true, "image": false}, "pageCount": 368, "printType": "BOOK", "categories": ["Fiction"], "maturityRating": "NOT_MATURE", "allowAnonLogging": true, "contentVersion": "1.6.6.0.preview.2", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=nbRVCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=nbRVCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.ca/books?id=nbRVCgAAQBAJ&printsec=frontcover&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=9&source=gbs_api", "infoLink": "https://play.google.com/store/books/details?id=nbRVCgAAQBAJ&source=gbs_api", "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nbRVCgAAQBAJ"}, "saleInfo": {"country": "CA", "saleability": "FOR_SALE", "isEbook": true, "listPrice": {"amount": 11.99, "currencyCode": "CAD"}, "retailPrice": {"amount": 11.99, "currencyCode": "CAD"}, "buyLink": "https://play.google.com/store/books/details?id=nbRVCgAAQBAJ&rdid=book-nbRVCgAAQBAJ&rdot=1&source=gbs_api", "offers": [{"finskyOfferType": 1, "listPrice": {"amountInMicros": 11990000, "currencyCode": "CAD"}, "retailPrice": {"amountInMicros": 11990000, "currencyCode": "CAD"}, "giftable": true}]}, "accessInfo": {"country": "CA", "viewability": "PARTIAL", "embeddable": true, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": true, "acsTokenLink": "http://books.google.ca/books/download/The_Nest-sample-epub.acsm?id=nbRVCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=nbRVCgAAQBAJ&hl=&source=gbs_api", "accessViewStatus": "SAMPLE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "Tender, funny and deftly written, The Nest explores what money does to relationships, what happens to our ambitions over the course of our lives, and the fraught but unbreakable ties we have with our families."}}, {"kind": "books#volume", "id": "aCqRvgEACAAJ", "etag": "67yJj1npdkY", "selfLink": "https://www.googleapis.com/books/v1/volumes/aCqRvgEACAAJ", "volumeInfo": {"title": "The Gates Ajar", "authors": ["Elizabeth Stuart Phelps"], "publisher": "Franklin Classics Trade Press", "publishedDate": "2018-10-17", "description": "This work has been selected by scholars as being culturally important and is part of the knowledge base of civilization as we know it. This work is in the public domain in the United States of America, and possibly other nations. Within the United States, you may freely copy and distribute this work, as no entity (individual or corporate) has a copyright on the body of the work. Scholars believe, and we concur, that this work is important enough to be preserved, reproduced, and made generally available to the public. To ensure a quality reading experience, this work has been proofread and republished using a format that seamlessly blends the original graphical elements with text in an easy-to-read typeface. We appreciate your support of the preservation process, and thank you for being an important part of keeping this knowledge alive and relevant.", "industryIdentifiers": [{"type": "ISBN_10", "identifier": "0343659298"}, {"type": "ISBN_13", "identifier": "9780343659295"}], "readingModes": {"text": false, "image": false}, "pageCount": 258, "printType": "BOOK", "maturityRating": "NOT_MATURE", "allowAnonLogging": false, "contentVersion": "preview-1.0.0", "panelizationSummary": {"containsEpubBubbles": false, "containsImageBubbles": false}, "imageLinks": {"smallThumbnail": "http://books.google.com/books/content?id=aCqRvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api", "thumbnail": "http://books.google.com/books/content?id=aCqRvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"}, "language": "en", "previewLink": "http://books.google.ca/books?id=aCqRvgEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&cd=10&source=gbs_api", "infoLink": "http://books.google.ca/books?id=aCqRvgEACAAJ&dq=%7B%22isbn%22:%220812995341%22%7D&hl=&source=gbs_api", "canonicalVolumeLink": "https://books.google.com/books/about/The_Gates_Ajar.html?hl=&id=aCqRvgEACAAJ"}, "saleInfo": {"country": "CA", "saleability": "NOT_FOR_SALE", "isEbook": false}, "accessInfo": {"country": "CA", "viewability": "NO_PAGES", "embeddable": false, "publicDomain": false, "textToSpeechPermission": "ALLOWED", "epub": {"isAvailable": false}, "pdf": {"isAvailable": false}, "webReaderLink": "http://play.google.com/books/reader?id=aCqRvgEACAAJ&hl=&source=gbs_api", "accessViewStatus": "NONE", "quoteSharingAllowed": false}, "searchInfo": {"textSnippet": "This work has been selected by scholars as being culturally important and is part of the knowledge base of civilization as we know it. This work is in the public domain in the United States of America, and possibly other nations."}}]}
