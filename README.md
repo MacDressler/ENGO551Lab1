@@ -18,7 +18,10 @@ run this first at the beginning of the session  $env:FLASK_APP = "application.py
 In order to run the code type python -m flask run in the command line
 
 This lab allows the user to review books, and it also draws on the google books api in order to provide the user with more review statistics. The files are the same as lab 1. There are a few more files here but these were generated to test out the api. 
-I started trying to figure out chatgpt for this lab. Here are some of the questions that I asked chatgpt.
+
+The hardest part of this lab for me was figuring out how the api worked. The review stuff was done in lab 1 in anticipation, but it wasn't too bad because it worked the exact same as the other username step.
+
+I started trying to figure out chatgpt for this lab. Here are some of the questions that I asked chatgpt. 
 
 how do I use jsonify to write an error message in my api
 what is the difference between isbn 10 and isbn 13
