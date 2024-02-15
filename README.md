@@ -10,7 +10,15 @@ Thank you for looking at my project!
 I hope you enjoy.
 
 
-For Lab 2, here is the second readme. I started trying to figure out chatgpt for this lab. Here are some of the questions that I asked chatgpt.
+For Lab 2, here is the second readme. 
+
+In order to run the code, please use the following two lines to set up your machine. 
+
+run this first at the beginning of the session  $env:FLASK_APP = "application.py"
+In order to run the code type python -m flask run in the command line
+
+This lab allows the user to review books, and it also draws on the google books api in order to provide the user with more review statistics. The files are the same as lab 1. There are a few more files here but these were generated to test out the api. 
+I started trying to figure out chatgpt for this lab. Here are some of the questions that I asked chatgpt.
 
 how do I use jsonify to write an error message in my api
 what is the difference between isbn 10 and isbn 13
