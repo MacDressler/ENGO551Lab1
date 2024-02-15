@@ -9,19 +9,17 @@
 
 
         <h1>
-            Welcome to the Best Book Review Website on the Internet
+            Welcome to the Best Book Review Website on the Internet 
         </h1>
 
         {% if obj_book %}
     
             <h2>{{obj_book.title}}</h2>
             <p>{{obj_book.author}} | {{obj_book.year}} | {{obj_book.isbn}}</p>
-        
-            {% if not(error) %}
-                <p align="center">
-                Rating {{rating}} / 5 by {{count}} people
-                </p>  
-            {%endif%}
+            <p>
+            Rating {{rating}} / 5 by {{count}} people
+            </p>  
+         
         
             {% if session['logged_in'] and not(status) %}
             <form action="{{url_for('book',isbn=obj_book.isbn)}}" method="POST">

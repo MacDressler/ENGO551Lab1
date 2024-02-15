@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Count</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <h1>Book Review Count</h1>
+    <label for="isbnInput">Enter ISBN:</label>
+    <input type="text" id="isbnInput" placeholder="Enter ISBN">
+    <button onclick="getReviewCount()">Get Review Count</button>
+    <p id="reviewCount">Review Count: <span id="count">-</span></p>
+
+    <script>
+        function getReviewCount() {
+            const isbn = $('#isbnInput').val();
+            if (!isbn) {
+                alert('Please enter an ISBN number.');
+                return;
+            }
+
+            $.ajax({
+                url: `http://localhost:5000/get_review_count?isbn=${isbn}`,
+                type: 'GET',
+                success: function (data) {
+                    $('#count').text(data.review_count);
+                },
+                error: function (error) {
+                    console.error('Error:', error.responseJSON.error);
+                    alert('Error fetching review count. Please check the ISBN and try again.');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

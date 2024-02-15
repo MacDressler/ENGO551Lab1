@@ -1,9 +1,10 @@
 import os
-
-from flask import Flask, session, request, render_template, redirect, url_for
+import requests
+from flask import Flask, session, request, render_template, redirect, url_for, jsonify
 from flask_session import Session
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import scoped_session, sessionmaker
+api_key = 'AIzaSyBKkJU-dvpkiz0Zm10XM94O216I-sHWSa0'
 
 app = Flask(__name__)
 
@@ -24,6 +25,16 @@ def reviews(book_id): # I need this function in order to get the stats from my r
     review = db.execute("SELECT count(review), round(avg(rating), 2) FROM review where book_id = :id;", {'id':book_id}).fetchone() # This gives these two stats from the table.
     return [review.count, float(str(review.round))]
 
+def google_books(book_id):
+    res = requests.get("https://www.googleapis.com/books/v1/volumes", params={'key': api_key, 'q': f'isbn:{book_id}'})
+    info = res.json()
+    if 'items' in info and info['items']:
+        data = info['items'][0]['volumeInfo']
+        count = data.get('ratingsCount', 'N/A')
+        rating = data.get('averageRating', 'N/A')
+    
+    print([count, rating])
+    return count, rating
 
 
 @app.route("/signup", methods = ['GET','POST']) # I need the get and post because users will need to add info
@@ -89,11 +100,11 @@ def book(isbn):# isbn is unique to each book.
             pass
 
     try:
-        count, rating= reviews(isbn) # this calls the previous function.
+        count, rating = google_books(isbn) # this calls the previous function.
     except:
         error_message = True
         count, rating = 0, 0
-    return render_template('book.html', obj_book = res, reviews= reviews,count = count, rating =rating, status = status,error = error_message)
+    return render_template('book.html', obj_book = res, reviews= reviews,count = count, rating = rating, status = status,error = error_message)
         
 
 @app.route("/login", methods = ['GET', 'POST']) # This page will have input and output
@@ -110,7 +121,24 @@ def login():
     
     return render_template('login.html') 
 
-            
+@app.route("/api/<isbn>", methods = ['GET'])
+def api(isbn):
+    res = db.execute("select * from books where isbn = :isbn;", {'isbn':isbn}).fetchone()
+    if res == None:
+        return jsonify({"error":"Book not found"}), 404
+    try:
+        count, rating = reviews(res.id)
+    except:
+        count, rating= 0, 0
+    return jsonify({
+        "title": res.title,
+        "author": res.author,
+        "publishedDate": res.year,
+        "ISBN_10": res.isbn,
+        "ISBN_13": None,
+        "reviewCount": count,
+        "averageRating": rating
+    }),200
 
 
 @app.route("/books")

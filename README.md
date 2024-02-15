@@ -8,3 +8,13 @@ Application.py is the main file that runs the web app. Make sure to use the info
 Thank you for looking at my project! 
 
 I hope you enjoy.
+
+
+For Lab 2, here is the second readme. I started trying to figure out chatgpt for this lab. Here are some of the questions that I asked chatgpt.
+
+how do I use jsonify to write an error message in my api
+what is the difference between isbn 10 and isbn 13
+can you help me make an API to extract the review count for particular books from the Google books website based on the ISBN number?
+can you please build me an amazing css file to make my book review website look magical?
+please make it more magical
+please make it more magical
